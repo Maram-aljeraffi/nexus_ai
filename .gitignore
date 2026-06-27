@@ -1,0 +1,43 @@
+
+nexus_ai_laravel/.env
+nexus_ai_laravel/.env.backup
+nexus_ai_laravel/.env.production
+nexus_ai_laravel/vendor/
+nexus_ai_laravel/public/storage
+nexus_ai_laravel/storage/*.key
+
+# 2. قسم الروابط السرية والتوكنز (Ngrok & Tokens)
+# ---------------------------------------------------------------------
+ngrok
+ngrok.exe
+.ngrok2/
+*.token
+*secrets*
+
+# 3. قسم الفلاتر الأساسي (Flutter Files & Cache)
+# ---------------------------------------------------------------------
+nexus_ai_flutter/.dart_tool/
+nexus_ai_flutter/.flutter-plugins
+nexus_ai_flutter/.flutter-plugins-dependencies
+nexus_ai_flutter/.packages
+nexus_ai_flutter/.pub-cache/
+nexus_ai_flutter/.pub/
+nexus_ai_flutter/build/
+nexus_ai_flutter/android/.gradle/
+nexus_ai_flutter/android/local.properties
+nexus_ai_flutter/ios/Flutter/Generated.xcconfig
+
+# 4. قسم حماية الخدمات والفايربيز في الفلاتر (Flutter Services & Firebase)
+# ---------------------------------------------------------------------
+nexus_ai_flutter/android/app/google-services.json
+nexus_ai_flutter/ios/Runner/GoogleService-Info.plist
+nexus_ai_flutter/lib/firebase_options.dart
+nexus_ai_flutter/lib/services/api_service.dart
+nexus_ai_flutter/lib/core/network/
+
+# 5. قسم مخلفات النظام ومحررات الأكواد (IDEs & System Garbage)
+# ---------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
